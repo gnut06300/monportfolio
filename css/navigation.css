@@ -1,0 +1,74 @@
+/* fait disparaitre le menu */
+.menu {
+    max-height: 0;
+    margin :0;
+    flex-basis: 100%;
+    overflow: hidden;
+    opacity: 0;
+    transition: margin .5s ease-in-out, max-height .5s ease-in-out, opacity .3s .1s ease-in-out;
+    visibility: hidden;
+    list-style: none;
+    padding: 0 2em;
+
+}
+/*.menu li {
+    border-bottom: 1px solid #eee;
+}*/
+.nav-wrapper p{
+    margin-top: 15px;
+}
+.menu li a {
+    display: inline-block;
+    padding: 0.5em 1em;
+}
+.menu-checkbox:checked ~ .menu {
+    max-height: 1000px;
+    opacity: 1;
+    overflow: visible;
+    margin: 1em 0;
+    max-height: none;
+    transition: margin .5s ease-in-out, max-height .5s ease-in-out, opacity .3s .1s ease-in-out;
+    visibility: visible;
+
+}
+.menu-checkbox {
+    opacity: 0;
+    position: absolute;
+    top: -1000px;
+}
+.menu-toggle{
+    color: #ffffff;
+    padding: .5em 2em;
+}
+.menu-checkbox:focus + .menu-toggle {
+    outline: auto #2c3e50 ;
+}
+.nav-wrapper {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between
+}
+@media screen and (min-width: 555px) {
+    .menu {
+        flex-basis: auto;
+        margin: 0;
+        max-height: 1000px;
+        opacity: 1;
+        padding: 0;
+        visibility: visible;
+    }
+
+    .menu-toggle,
+    .menu-checkbox {
+        display: none;
+    }
+    .menu li {
+        border: none;
+        display: inline-block;
+    }
+
+    .menu li a {
+        padding: .5em 1em;
+    }
+}

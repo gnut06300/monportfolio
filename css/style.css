@@ -1,0 +1,160 @@
+@charset "UTF-8";
+/*font-family: 'Raleway', sans-serif; */
+/* bleu clair : #3498DB;*/
+/* bleu foncé : #2c3e50; */
+body, html{
+	padding: 0;
+	margin : 0;
+}
+body{
+	font-family: 'Raleway', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+.container-fluid{
+	padding: 0px;
+}
+.separator{
+	height: 3px;
+	width: 5%;
+	boder :none;
+	box-shadow: none;
+	background-color: #3498DB;
+
+
+}
+
+/* header */
+header{
+	background-color: #3498DB;
+	height: 70px;
+	line-height: 70px;
+}
+.logo{
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+	float: left;
+	padding-left: 10PX;
+}
+.menu{
+	float: right;
+}
+.menu a{
+	color: #ffffff;
+	margin-right: 23px;
+}
+.menu a:hover{
+	color: #2c3e50;
+}
+
+/* banière */
+.banner{
+	width: 100%;
+	max-width: 100%;
+	position: relative;
+}
+.ban{
+	width: 100%;
+	max-width: 100%;
+	
+}
+.ban img{
+	width: 100%;
+	max-width: 100%;
+}
+.inner-banner{
+	position: absolute;
+	top :25%;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+.inner-banner h1{
+	color: #ffffff;
+	text-shadow: 2px 2px 30px #000000 ;
+}
+.inner-banner .btn-custom{
+	background-color: #3498DB;
+	color: #ffffff ;
+}
+.inner-banner .btn-custom:hover{
+	color: #2c3e50;
+}
+
+/* about */
+#about{
+	text-align :center;
+	padding-top:5%;
+
+}
+.about article{
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+.about article h2{
+	text-align: center;
+}
+
+/* portofolio */
+
+.portfolio{
+	background-color: #eeeeee;
+	padding-bottom: 5%;
+}
+#portfolio{
+	text-align:center;
+	padding-top: 5%;
+}
+.item-folio{
+	/* height: 265px; */
+	background-color: #3498DB;
+	padding-top: 15px;
+	text-align:center;
+   	padding-bottom: 15px;
+
+}
+.item-folio img{
+	width: 100%;
+	max-width: 360PX;
+	height:auto;
+	max-height: 255px;
+	box-shadow: 2px 2px 20px #000000;
+
+}
+
+/* contact */
+.formulaire{
+	margin: 5% auto 5% auto;
+}
+.formulaire .btn-custom{
+	background-color: #3498DB;
+	color: #ffffff ;
+}
+.alert{
+	color: red;
+}
+/* footer */
+.footer{
+	background-color: #2c3e50;
+	color: #ffffff;
+}
+#contact{
+	text-align: center;
+	padding-top: 5%;
+}
+.footer p{
+	text-align: center;
+	padding-bottom: 5%;
+}
+@media screen and (max-width: 500px){
+	header{
+		height: 140px;
+	}
+	.inner-banner{
+		top:15%;
+	}
+
+}

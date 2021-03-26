@@ -1,0 +1,115 @@
+  
+
+
+
+     html : 
+
+
+
+ 
+    <input id="hamburger" class="hamburger" type="checkbox" />
+    <label class="hamburger" for="hamburger">
+      <i></i>
+      <text>
+        <close>close</close>
+        <open>menu</open>
+      </text>
+    </label>
+    <section class="drawer-list">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Gallery</a></li>
+        <li><a href="portfolio.html">Projet Web</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </section>
+  </content>
+
+
+
+
+
+   css: 
+
+
+.drawer-list {
+  position: fixed;
+  right: 0;
+  top: 0;
+  height: 100vh;
+  width: 300vw;
+  transform: translate(100vw, 0);
+  /* ie workaround */
+  -ms-transform: translatex(-100vw);
+  box-sizing: border-box;
+  pointer-events: none;
+  padding-top: 125px;
+  transition: width 475ms ease-out, transform 450ms ease, border-radius 0.8s 0.1s ease;
+  border-bottom-left-radius: 100vw;
+  background-color: rgb(85, 226, 160);
+}
+
+@media (min-width: 768px) {
+  .drawer-list {
+    width: 40vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .drawer-list {
+    width: 100vw;
+    text-align: center;
+
+  }
+}
+
+.drawer-list ul {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+  overflow-x: hidden;
+  pointer-events: auto;
+}
+
+.drawer-list li {
+  list-style: none;
+  text-transform: uppercase;
+  pointer-events: auto;
+  white-space: nowrap;
+  box-sizing: border-box;
+  transform: translatex(100vw);
+  /* ie workaround */
+  -ms-transform: translatex(-100vw);
+}
+
+.drawer-list li:last-child {
+  margin-bottom: 2em;
+}
+
+.drawer-list li a {
+  text-decoration: none;
+  color: #FEFEFE;
+  text-align: center;
+  display: block;
+  padding: 1rem;
+  font-size: calc(40px - .5vw);
+
+
+}
+
+@media (min-width: 768px) {
+  .drawer-list li a {
+    text-align: center;
+    padding: 0.5rem;
+  }
+}
+
+.drawer-list li a:hover {
+  cursor: pointer;
+  color: rgba(139, 139, 139, 0.644);
+
+
+}
+  
