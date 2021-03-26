@@ -74,6 +74,7 @@
             <p>Créateur de sites web notamment pour l'association Gisèle et Paul Tissier - la Villa Beau Site afin de promouvoir cette villa d'exception, classé Monument historique</p>
             <p>Créateur en 2004 du site du sculpteur Stéphane Cipre <a href="http://www.cipre.fr/" title="Ouvre le site cipre.fr dans une nouvelle fenêtre" target="_blank">cipre.fr</a>.</p>
             <p>Ma dernière création : <a href="http://gnut.eu/greta/bibliov2/" title="Ouvre le site de la bibliothèque du Parc Impérial dans une nouvelle fenêtre" target="_blank">La Bibliothèque Du Parc Impérial</a>.</p>
+            <p>Mon dernier stage : <a href="https://escoffier.gnut.eu/" title="Ouvre le site du lycée professionel Auguste Escoffier dans une nouvelle fenêtre" target="_blank">Le lycée professionel Auguste Escoffier</a>.</p>
           </article>
           <article class="col-md-4 col-lg-4 col-xs-12 col-sm-12">
             <h2>Hobbies</h2>
