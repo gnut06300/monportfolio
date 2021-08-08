@@ -188,7 +188,7 @@
           <p><?php
         $jours=['Lundi','Mardi','Mercredi','Jeudi','Vendredi','Samedi','Dimanche'];
         $mois=['Janvier','Février','Mars','Avril','Mai','Juin','Juillet','Août','Septembre','Octobre','Novembre','Décembre'];
-        echo "Nous sommes le ".$jours[date('N')-1].' '.date('j').' '.$mois[date('n')].' '.date('Y') ; ?>  -  Copyrignt Mr Gérald COL &copy; .Tous droits réservés.</p>
+        echo "Nous sommes le ".$jours[date('N')-1].' '.date('j').' '.$mois[date('n')-1].' '.date('Y') ; ?>  -  Copyrignt Mr Gérald COL &copy; .Tous droits réservés.</p>
       </div>
       
     </footer>
